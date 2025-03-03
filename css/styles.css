@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.2);
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 1rem;
+    min-width: 250px;
+}
+
+.figcap {
+    display: block;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    padding: 2rem;
+}
+
+.timeline {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    max-width: 500px;
+}
+
+li {
+    margin: 1rem 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.centerquote {
+    display: flex;
+    justify-content: center;
+}
+
+.centerquote blockquote {
+    max-width: 500px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.lastparagraph {
+    text-align: center;
+}
+
+a {
+    color: rgb(18, 154, 207);
+}
